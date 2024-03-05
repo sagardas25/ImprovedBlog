@@ -1,0 +1,235 @@
+ @media screen and (max-width : 850px) {
+
+        .main img {
+
+            display: none;
+        }
+    
+
+        .container{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center ;
+            overflow: hidden;
+            padding-bottom: 3%;
+            
+        }
+
+        .logo-mob{
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 600;
+                font-size:xx-large;
+                width: 70vw;
+                margin: auto;
+                margin-left: 14%;
+
+        }
+
+        .logo{
+
+            display: none;
+        }
+
+        hr{
+
+            margin: 15px auto;
+        }
+
+        .toggle-btn{
+            display: none;
+        
+        }
+
+        .toggle-btn-mob {
+
+            position: relative;
+            top:1%;
+
+            
+
+
+        }
+
+        .main-text>p {
+
+            padding-bottom: 20px;
+            margin-top:2%;
+            
+        }
+
+
+        #checkbox-mob{
+
+            visibility: hidden;
+          }
+   
+
+          #checkbox:checked + .label-mob .toggle-ball-mob{
+
+            transform: translateX(200px);
+            background-color: rgba(107, 107, 224, 0.953);
+          
+          }
+
+
+          .about-text{
+           
+            display: flex;
+            width: 30vw;
+            flex-wrap: wrap;
+
+          }
+
+          .about-text h1{
+            width: 100%;
+            font-size: 20px;
+          }
+
+
+          .main-text{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* background-color: brown; */
+            margin: 8%;
+            
+          }
+
+          #span-text{
+
+                display: none;
+
+
+
+          }
+
+
+          .cards{
+
+            margin: 3% 0%;
+
+          }
+
+          .cards img {
+
+                width: 32vw;
+                height: 12vh;
+
+
+
+          }
+
+          .logo-mob>img{
+
+                height: 15vw;
+                width: 15vw;
+                margin-right: 0%;
+                padding-right: 0%;
+                
+
+
+          }
+
+          .logo-mob{
+
+              
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+          }
+
+
+ }
+
+ @media screen and (min-width : 850px) {
+
+    
+    .toggle-btn-mob {
+
+    display: none;
+
+    }
+
+    .logo-mob{
+
+        display: none;
+    }
+
+
+    
+ }
+
+ @media screen and (max-width : 850px) {
+
+    
+   
+  .ancho{
+    margin-top: 4%;
+    align-self: center;
+    width: 25vw;
+    padding: 0.5%;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    font-weight: 600;
+    
+    
+}
+
+#write-blog{
+
+align-self: center;
+padding: 1%;
+cursor: pointer;
+border-radius: 3px;
+background-color: #333;
+color: #fff;
+font-weight: 600;
+border: none;
+
+}
+
+
+    
+ }
+
+/* setting up code for logo for mobile */
+
+@media screen and (max-width : 520px){
+
+
+    .logo-mob>img{
+
+        height: 15vw;
+        width: 15vw;
+        margin-right: 0%;
+        padding-right: 0%;
+    
+}
+
+}
+
+@media (min-width : 520px) and (max-width:850px){
+
+       .logo-mob>img{
+
+             height: 10vw;
+             width: 10vw;
+             margin-right: 0%;
+             padding-right: 0%;
+
+}
+
+
+
+
+}

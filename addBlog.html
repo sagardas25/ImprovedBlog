@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Blog</title>
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="addBlog.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="InputMobile.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-mob"> 
+            
+        <img src="logo-blink.png" />
+        <h3>BlinkBlog</h3> 
+    
+    </div>
+
+
+    <div class="toggle-btn-mob">
+
+        <input type="checkbox" id="checkbox-mob">
+        <label for="checkbox" class="label-mob">
+            <span class="toggle-ball-mob"></span>
+        </label>
+        
+    </div>
+    
+ 
+   
+
+
+
+    <nav class="container1">
+
+        
+
+
+        <div class="logo">
+            
+            
+           <img src="logo-blink.png" />
+
+           <h1> BlinkBlog </h1>
+        
+        
+        
+        </div>
+
+        <ul>
+
+            
+            <a href="./index.html">
+                    
+                <li>Home</li>
+               
+               </a>
+
+               
+               <a href="./blog.html">
+                    
+                <li>Blog</li>
+               
+               </a>
+
+               <a href="./about.html">
+                   
+                   <li>About Us</li>
+               
+               </a>
+
+               <a href="./contact.html">
+                   
+                   <li>Contact us</li>
+               
+               </a>
+
+
+                <div class="toggle-btn">
+
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" class="label">
+                        <span class="toggle-ball"></span>
+                    </label>
+                    
+                </div>
+
+
+            
+        </ul>
+
+
+   </nav>
+
+</header>
+
+<hr/>
+
+<div class="main">
+
+    <div id="addBlogSection">
+
+        <h2 id="h-2">Add Your Blog</h2>
+
+        
+
+        <form id="blogForm">
+
+
+            <div class=" text-input title">
+
+                  <label for="blogTitle">Title:</label>
+                  <input type="text" id="blogTitle" required>
+                
+            </div>
+
+            <div class=" text-input author">
+
+                  <label for="authorName">author:</label>
+                  <input type="text" id="authorName" required>
+                
+            </div>
+
+            <div class="text-input content">
+
+                <label for="blogContent">Content:</label>
+                <textarea id="blogContent" required></textarea>
+        
+            </div>
+
+
+
+
+            <button type="button" id="add-btn" onclick="addBlog()">Add Blog</button>
+
+        </form>
+
+
+    </div>
+
+</div>
+
+  <hr/>
+
+<div id="show-section">
+    <div id="showBlogsSection">
+
+        <h2>Your Blogs : </h2>
+
+        <div id="blogsContainer">
+
+          
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+ <script src="./operations.js"></script> 
+ <script src="./app.js"></script>
+</body>
+</html>
