@@ -1,4 +1,4 @@
-// addBlog.js
+
 
 document.addEventListener('DOMContentLoaded', function () {
     loadBlogs();
@@ -26,7 +26,7 @@ function addBlog() {
 
         saveBlogs();
 
-        // Clear the form fields after adding a blog
+        
         
         document.getElementById('h-2').value = '';
         document.getElementById('blogTitle').value = '';
@@ -54,12 +54,12 @@ function editBlog(button) {
     var author = blog.querySelector('h3').innerText;
     var content = blog.querySelector('p').innerText;
 
-    // Set the values in the form for editing
+    
     document.getElementById('blogTitle').value = title;
     document.getElementById('authorName').value = author;
     document.getElementById('blogContent').value = content;
 
-    // Remove the blog from the UI
+
     deleteBlog(button);
 }
 
